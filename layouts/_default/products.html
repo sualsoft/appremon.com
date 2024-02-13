@@ -1,0 +1,166 @@
+{{define "main"}}
+<!-- ======= Hero Section ======= -->
+<section id="hero" class="hero">
+  <div class="container position-relative">
+    <div class="row gy-5" data-aos="fade-in">
+      <div
+        class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center text-center text-lg-start"
+      >
+        <h2>Our Products Appremon SaaS Cybersecurity Suite</h2>
+
+        <p>
+          Protecting your digital infrastructure has never been easier or more
+          affordable. With the Appremon SaaS Cybersecurity Suite, you get access
+          to a comprehensive set of tools designed to fortify your defenses
+          against modern cyber threats. Explore our range of products below:
+        </p>
+        <div class="d-flex justify-content-center justify-content-lg-start">
+          <a href="#services" class="btn-get-started"> Read more...</a>
+        </div>
+      </div>
+      <div
+        class="col-lg-6 order-1 order-lg-2 d-flex justify-content-center align-items-center product"
+      >
+        <img
+          src="/assets/img/our-product.png"
+          class="img-fluid"
+          alt="Hero BG"
+          data-aos="zoom-out"
+          data-aos-delay="100"
+        />
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Hero Section -->
+
+<!-- ======= Clients Section ======= -->
+<section id="clients" class="clients">
+  <div class="container" data-aos="zoom-out">
+    <div class="clients-slider swiper">
+      <div class="swiper-wrapper align-items-center">
+        <div class="swiper-slide">
+          <img src="/assets/img/client-logo.png" class="img-fluid" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img src="/assets/img/client-logo.png" class="img-fluid" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img src="/assets/img/client-logo.png" class="img-fluid" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img src="/assets/img/client-logo.png" class="img-fluid" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img src="/assets/img/client-logo.png" class="img-fluid" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img src="/assets/img/client-logo.png" class="img-fluid" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img src="/assets/img/client-logo.png" class="img-fluid" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img src="/assets/img/client-logo.png" class="img-fluid" alt="" />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Clients Section -->
+
+<!-- ======= Our Services Section ======= -->
+<section id="services" class="services sections-bg">
+  <div class="container" data-aos="fade-up">
+    <div class="section-header">
+      <h2>Our Services</h2>
+      <p>Threat Detection and Remediation</p>
+    </div>
+
+    <div class="row gy-4" data-aos="fade-up" data-aos-delay="100">
+      <div class="col-lg-6 col-md-12">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <img src="/assets/img/service-1.svg" />
+          </div>
+          <h3>Real-Time Threat Detection</h3>
+          <p>
+            Instantly identify and remediate potential threats before they
+            escalate, keeping your systems secure around the clock. CVE
+            Vulnerability Detection: Stay ahead of vulnerabilities with our
+            advanced scanning capabilities, ensuring your systems are always up
+            to date and protected. Exposed Network Port Detection: Detect and
+            close exposed network ports to prevent unauthorized access and
+            potential breaches. CI/CD Pipeline Security: Identify and secure
+            exposed secrets in your CI/CD pipelines, mitigating the risk of data
+            leaks and unauthorized access. AI-Powered Anomaly Detection
+          </p>
+        </div>
+      </div>
+      <!-- End Service Item -->
+
+      <div class="col-lg-6 col-md-12">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <img src="/assets/img/service-2.svg" />
+          </div>
+          <h3>Advanced AI Algorithms</h3>
+          <p>
+            Our AI and deep learning algorithms analyze network traffic in
+            real-time, flagging anomalies and potential threats with
+            unparalleled accuracy. Generative AI Attack Detection: Stay
+            protected against evolving threats, including generative AI attacks,
+            with our advanced detection capabilities. Customized Alerting:
+            Receive alerts tailored to your network's normal behavior, reducing
+            false positives and ensuring you only focus on real threats.
+            Malicious Site Blocking and Ad Network Detection
+          </p>
+        </div>
+      </div>
+      <!-- End Service Item -->
+
+      <div class="col-lg-6 col-md-12">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <img src="/assets/img/service-3.svg" />
+          </div>
+          <h3>Real-Time Site Blocking</h3>
+          <p>
+            Block access to malicious internet sites in real-time, preventing
+            users from inadvertently accessing harmful content. Known Ad Network
+            Detection: Identify and block known ad networks, reducing the risk
+            of malvertising and protecting your users' browsing experience.
+            Simple, Affordable, and Effective
+          </p>
+        </div>
+      </div>
+      <!-- End Service Item -->
+
+      <div class="col-lg-6 col-md-12">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <img src="/assets/img/service-4.svg" />
+          </div>
+          <h3>Ease of Use</h3>
+          <p>
+            Our platform is designed to be intuitive and user-friendly,
+            requiring minimal setup and configuration. Affordable Pricing: Get
+            enterprise-level security at a fraction of the cost, without
+            compromising on quality or effectiveness. Enhanced Security Posture:
+            Elevate your security posture with Appremon, reducing the risk of
+            breaches and cyber attacks while increasing confidence in your
+            digital infrastructure. Get Started Today
+          </p>
+        </div>
+      </div>
+      <!-- End Service Item -->
+    </div>
+  </div>
+</section>
+<!-- End Our Services Section -->
+
+<!-- ======= Call To Action Section ======= -->
+{{ partial "cta.html"}}
+<!-- End Call To Action Section -->
+
+{{end}}
